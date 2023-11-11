@@ -1,0 +1,10 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+img{
+    object-fit: cover;
+}

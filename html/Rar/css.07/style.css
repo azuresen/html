@@ -1,0 +1,23 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.satu {
+    width: 60px;
+    height: 70px;
+    background-color: purple;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 15px;
+    line-height: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    transition-property: width;
+    transition-duration: 5s;
+}
+.satu:hover {
+    width: 300px;
+   transform: scale(2, 3);
+}

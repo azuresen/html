@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>ini adalah hasil bilangan genap 1 - 50 :</h2>
+    <ul id = "genapList"></ul>
+    <script>
+        var  genapList = document.getElementById("genapList");
+
+        for (var f = 2; f <= 50; f += 2) {
+            var listItem = document.createElement("li");
+            listItem.textContent = f;
+            genapList.appendChild(listItem);
+        }
+    </script>
+</body>
+</html>

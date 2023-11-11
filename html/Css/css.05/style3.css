@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.text {
+    background-color: #A57D5D;
+    color: white;
+    position: absolute;
+width: 1440px;
+height: 166px;
+left: 0px;
+top: 0px;  
+}
+h3 {
+    position: absolute;
+    left: 41px;
+top: 27px;
+}
+h2 {
+    position: absolute;
+    left: 41px;
+    top: 81px;
+ 
+}
+.gambar {
+    position: absolute;
+width: 272px;
+height: 96px;
+left: 800px;
+top: 198px;
+}
+.text2 {
+    position: absolute;
+width: 442px;
+height: 56px;
+left: 51px;
+top: 186px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+}
+.gambar2 {
+    position: absolute;
+    width: 440px;
+    height: 585px;
+    left: 463px;
+    top: 263px;
+}
+.tulisan {
+    background-color:  #F3D6BF;
+    position: absolute;
+width: 1374px;
+height: 101px;
+left: 33px;
+top: 700px;
+}
+h1 {
+color: black;
+text-align: center;
+}

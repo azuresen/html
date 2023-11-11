@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../asset/buls.jfif);
+}
+ .satu {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    float:right;
+}
+.dua {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left:20px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: chartreuse;
+    float: right;
+
+}
+.tiga {
+    width: 200px;
+    height: 200px;
+    0margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: darkgreen; 
+    float: right;
+} 

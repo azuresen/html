@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.sidebar{
+    display: flex;
+    
+   
+}
+
+
+.colum1 img{
+border-radius: 100%;
+
+}
+
+
+.colum1 img{
+    margin-top: 110px;
+}
+
+
+.colum1{
+    background-color: gray;
+    width: 400px;
+    height: 643px;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+}
+
+
+.colum1 .kontak{
+    background-color: white;
+    font-weight: bold;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    width: 200px;
+    height: 27px;
+    margin: auto;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+.colum1 .kontak {
+    margin-top: 30px;
+}
+
+
+.kontak a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar {
+    background-color: white;
+    color: gray;
+    padding: 10px 0;
+    height: 65%;
+    width: 65%;
+    margin-left: 450px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    margin-left: 50px
+};
+
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+
+.nav-list li {
+    display: inline;
+    margin-left: 20px;
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    text-align: right;
+}
+.navbar .paragraf{
+    padding-top: 80px;
+    color: black;
+    margin-left: 50px;
+}
+
+
+.navbar .paragraf h2{
+    padding-top: 30px;
+}
+
+
+.navbar .about{
+    padding-top: 80px;
+    padding-left: 50px;
+    color: black;
+}
+
+
+.navbar .about p{
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.807);
+}
+
+
+.kontak a:hover{
+    background: green;
+    color: black;
+}
+.about {
+    margin-top: 150px;
+}

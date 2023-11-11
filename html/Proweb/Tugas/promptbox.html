@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="iniPrompt()"> Prompt</button>
+
+<script>
+function iniPrompt() {
+  var name = prompt("Silakan masukkan nama Anda:", "");
+  if (name !== null) {
+    alert("Halo, " + name + "! Selamat datang!");
+  } else {
+    alert("Anda tidak memasukkan nama.");
+  }
+}
+</script>
+    
+</body>
+</html>

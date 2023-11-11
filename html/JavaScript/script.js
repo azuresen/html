@@ -1,0 +1,1 @@
+alert ("Hai,ini JavaScript lhoo")

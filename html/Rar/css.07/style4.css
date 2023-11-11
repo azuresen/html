@@ -1,0 +1,56 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../asset/pulau.jpg);
+}
+header {
+   height: 100px;
+   
+}
+
+nav {
+    float: right;
+}
+
+ul,li,a {
+    display: inline-block;
+    margin: 30px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+li {
+    border: 1px solid rgb(120, 240, 23);
+border-radius: 30px;
+    margin:15px;
+  background-color:rgb(230, 215, 16);
+  margin-top: auto;
+}
+.logo {
+    border-radius:35px;
+    width: 80px;
+    margin: 15px;
+}
+li,a{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    transition: 2s;
+    
+    
+}
+a,li:hover {
+    transform: scale(2);
+}
+.teks{
+   font-size: 300%;
+   color: antiquewhite;
+   text-align: center;
+   margin: 25px;
+}
+
+

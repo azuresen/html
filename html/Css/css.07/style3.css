@@ -1,0 +1,26 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ease {
+    width: 150px;
+    margin: 30px;
+    background-color: crimson;
+    transition-timing-function: ease;
+    transition-duration: 10s;
+}
+.ease:hover {
+    width: 300px;
+}
+.linier {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    transition-timing-function: linier;
+    background-color: blueviolet;
+    transition-duration: 2s;
+}
+.linier:hover {
+    width: 500px;
+}

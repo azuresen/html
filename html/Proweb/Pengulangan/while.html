@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Bilangan dari yang besar ke kecil 20 - 0 </h2>
+    <ul id="besarKecil"></ul>
+    <script>
+        var besarKecil = document.getElementById("besarKecil")
+
+        var angka = 20;
+
+        while (angka >= 0 ) {
+            var listItem = document.createElement("li");
+            listItem.textContent = angka;
+            besarKecil.appendChild(listItem);
+            angka--;
+        } 
+
+    </script>
+</body>
+</html>

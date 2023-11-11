@@ -1,0 +1,59 @@
+#warp{
+    background: white;
+    width: 900px;
+    margin: 10px auto;
+}
+#header{
+    background-image: url(../asset/bp3.webp);
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu{
+    background: red;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+#menu ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+#sidebar{
+    background:crimson;
+    float: left;
+    width: 24%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#content{
+    margin-left: 10px;
+    background-color:crimson;
+    float: right;
+    height: auto;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#content img{
+    margin: 5px;
+    width: 30%;
+    height: 200px;
+}
+#footer{
+    text-align: center;
+    clear: both;
+    height: 80px;
+    background:crimson;
+    padding: 10px;
+}

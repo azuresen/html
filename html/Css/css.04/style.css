@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: darkcyan;
+    height: 180px;
+
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 50%;
+}
+nav {
+    float: right;
+    margin-top: 100px;
+    margin right: 20px;
+    padding:50px;
+
+}
+a {
+    background-color: black;
+    padding: 15px;
+    border-radius:80% ;
+}

@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 300px 665px 400px;
+    grid-template-rows: 250px 100px 300px;
+}
+.container > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo {
+    background-color:lightpink;
+    text-align: center;
+}
+.banner{
+    grid-column: 2/4;
+    background-color:lightcoral;
+}
+.center{
+    grid-column: 1/4;
+    background-color: lightgreen;
+}
+.menu {
+grid-column: 1/4;
+    background-color: green;
+}
+.left-content{
+    background-color: lightblue;
+}
+.main-content{
+    grid-column:2/3;
+}
+.right-content{
+    grid-column: 3/4;
+    background-color:lightblue;
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    width:150px;
+    height: 500px;
+    background-color: darkmagenta;
+    margin: 0 auto;
+}
+.kotak1,.kotak2,.kotak3 {
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    margin: 0px 10px 20px;
+}
+.kotak1 {
+    position: fixed;
+    left: 30px;
+    top: 30px;
+  background-color: aquamarine;
+}
+.kotak2 {
+    background-color: aqua;
+
+}
+.kotak3 {
+    background-color: aqua;
+}

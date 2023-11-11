@@ -1,0 +1,666 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+    transition-duration: 0.5s;
+}
+html:focus-within {
+    scroll-behavior: smooth;
+}
+/* navbar */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 100px;
+    z-index: 1000000;
+    background: rgba( 0, 0, 0, 0.3);
+}
+header.sticky {
+    padding: 5px 90px;
+    background:rgb(187, 187, 187);
+}
+header .logo{
+    position: relative;
+    /* font-weight: 700; */
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+header ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    text-decoration: none;
+    position: relative;
+    margin: 0 15px;
+    font-size: 20px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    position: relative;
+    margin: 0 15px;
+    color: #ffffff;
+    transition: 0.5s;
+    
+}
+nav {
+    margin-left: 500px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(./asset/flat\ shoes.jpg);
+    background-size: cover;
+    opacity: 70%;
+}
+
+
+/* Home */
+.beranda {
+    font-size: 40px;
+    padding: 300px;
+    text-align: center;
+    background-image: url(./asset/flat\ shoes.jpg);
+    background-size: cover;
+    opacity: 75% ;
+    color:rgb(75, 80, 72);
+}
+.beranda h1 {
+    /* font-family: 'Sansita', sans-serif; */
+    font-family: 'Comic Neue', cursive;
+}
+.judul {
+    color: black;
+    font-size: 35px;
+    margin-left: 48px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+
+/* css produk*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 70px;
+}
+
+/* produk1 */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 380px;
+    border-radius: 10px;
+}
+.img0 {
+    border-radius: 10px 10px 0px 0px;
+}
+.card:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,2);
+}
+.container {
+    padding: 2px 16px;
+    font-size: 30px;
+}
+p {
+    color: #A59494;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.card button {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px 0px 10px 10px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+.cart {
+    padding-bottom: 10px;
+    margin-top: 4px;
+}
+
+/* produk2 */
+.card1 {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 380px;
+    border-radius: 10px;
+} 
+.img1 {
+    border-radius: 10px 10px 0px 0px;
+}
+.card1:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,2);
+}
+.container1 {
+    padding: 2px 16px;
+    font-size: 30px;
+}
+p {
+    color: #A59494;
+}
+.card1 button {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px 0px 10px 10px;
+} 
+.card1 button:hover {
+    opacity: 0.7;
+}
+.cart1{
+    padding-bottom: 10px;
+    margin-top: 4px;
+}
+
+/* produk3 */
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 380px;
+    border-radius: 10px;
+}
+.img2 {
+    border-radius: 10px 10px 0px 0px;
+}
+.card2:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,2);
+}
+.container2 {
+    padding: 2px 16px;
+    font-size: 30px;
+}
+p {
+    color: #A59494;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.card2 button {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px 0px 10px 10px;
+}
+.card2 button:hover {
+    opacity: 0.7;
+}
+.cart2 {
+    padding-bottom: 10px;
+    margin-top: 4px;
+}
+
+
+
+/* css produk barisan ke2 */
+/* css grid */
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 70px;
+}
+
+/* produk1 barisan ke2 */
+.card3 {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-left: 60px;
+    height: 383px;
+    border-radius: 10px;
+}
+.img3 {
+    border-radius: 10px 10px 0px 0px;
+}
+.card3:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,2);
+}
+.container3 {
+    padding: 2px 16px;
+    font-size: 30px;
+}
+p {
+    color: #A59494;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.card3 button {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 5px;
+} 
+.card3 button:hover {
+    opacity: 0.7;
+}
+
+
+/* produk2 barisan ke2 */
+.card4 {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-left: 60px;
+    height: 380px;
+    border-radius: 10px;
+}
+.img4 {
+    border-radius: 10px 10px 0px 0px;
+}
+.card4:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,2);
+}
+.container4 {
+    padding: 2px 16px;
+    font-size: 30px;
+}
+p {
+    color: #A59494;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.card4 button {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 5px;
+}
+.card4 button:hover {
+    opacity: 0.7;
+}
+.cart4 {
+    top: 50px;
+}
+
+
+/* produk3 barisan ke2 */
+.card5 {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-left: 60px;
+    height: 377px;
+    border-radius: 10px;
+}
+.img5 {
+    border-radius: 10px 10px 0px 0px;
+}
+.card5:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,2);
+}  
+.container5 {
+    padding: 2px 16px;
+    font-size: 30px;
+}
+.container5 h4 {
+    font-size: 20px;
+}
+p {
+    color: #A59494;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.cart5 button {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    height: 70px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 23px;
+}
+.card5 button:hover {
+    opacity: 0.7;
+}
+
+
+/* css produk barisan ke3 */
+/* css grid */
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 70px;
+}
+
+/* produk1 barisan ke3 */
+.card6 {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 423px;
+    border-radius: 10px;
+} 
+.img6 {
+    border-radius: 10px 10px 0px 0px;
+}
+.card6:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,2);
+}
+.container6 {
+    padding: 2px 16px;
+    font-size: 30px;
+}
+p {
+    color: #A59494;
+}
+.card6 button {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px 0px 10px 10px;
+} 
+.card6 button:hover {
+    opacity: 0.7;
+}
+.cart6{
+    padding-bottom: 10px;
+    margin-top: 4px;
+}
+
+/* produk2 barsian ke3 */
+.card7 {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 422px;
+    border-radius: 10px;
+} 
+.img7 {
+    border-radius: 10px 10px 0px 0px;
+}
+.card7:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,2);
+}
+.container7 {
+    padding: 2px 16px;
+    font-size: 30px;
+}
+p {
+    color: #A59494;
+}
+.card7 button {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px 0px 10px 10px;
+} 
+.card7 button:hover {
+    opacity: 0.7;
+}
+.cart7{
+    padding-bottom: 10px;
+    margin-top: 4px;
+}
+
+/* produk3 barisan ke3 */
+.card8 {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 423px;
+    border-radius: 10px;
+} 
+.img8 {
+    border-radius: 10px 10px 0px 0px;
+}
+.card8:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,2);
+}
+.container8 {
+    padding: 2px 16px;
+    font-size: 30px;
+}
+p {
+    color: #A59494;
+}
+.card8 button {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px 0px 10px 10px;
+} 
+.card8 button:hover {
+    opacity: 0.7;
+}
+.cart8{
+    padding-bottom: 10px;
+    margin-top: 4px;
+}
+
+@media (max-width:500px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:1000px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:1000px){
+    .grid3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* css ABOUT */
+.about {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 150px;
+}
+.about h2{
+    text-align: center;
+    font-size: 40px;
+}
+.about p {
+    padding: 35px;
+    font-size: 24px;
+    text-align: center;
+      
+}
+
+
+
+/* css CONTACT */
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+@media (max-height:800px) {
+    footer{
+        position: static;
+    }
+}
+.footer-distributed{
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 10px sans-serif;
+    padding: 20px 30px 50px 70px;
+    /* margin-top: 10px; */
+}
+.footer-distributed .footer-left, .footer-center, .footer-right {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+
+/* footer left */
+.footer-distributed .footer-left{
+    width: 20%;
+}
+.footer-distributed h3 {
+    color: white;
+    font: normal 35px 'cookie', cursive;
+    margin: 0;
+    font-size: 40px;
+}
+.footer-distributed h3 span{
+    color: #ffd373;
+}
+
+
+/* footer link */
+.footer-links{
+    color: #fff;
+    margin: 20px 0 12px;
+}
+.footer-links a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    /* margin-top: 10px; */
+}
+.footer-company-name{
+    color: #8f9296;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 38px;
+}
+
+
+/* footer center */
+.footer-center {
+    width: 35%;
+    margin-left: 100px;
+    padding-top: 70px;
+}
+.footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+.footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 2;
+}
+.footer-distributed .footer-center p a {
+    color: #ffd373;
+    text-decoration: none;
+    ;
+}
+
+
+/* Footer Right */
+.footer-right {
+    width: 30%;
+    margin-top: 60px;
+}
+.footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-links a:hover {
+    color: #000000;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block; 
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
